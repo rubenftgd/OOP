@@ -1,0 +1,40 @@
+# java -jar videopoker.jar -i 10000
+
+# b
+player is betting 5
+
+# d
+player's hand 2H KH 2S JS 6D
+
+# h 1 3
+player's hand 2H JH 2S 10C 9H
+player loses and his credit is 9995
+
+# $
+player’s credit is 9995
+
+# b 10
+b: illegal amount
+
+# b
+player is betting 5
+
+# d
+player’s hand QC AS 8H 8D 7S
+
+# $
+player’s credit is 9990
+
+# h 3 4
+player's hand 3H 7D 8H 8D 5S
+player loses and his credit is 9990
+
+# d
+player’s hand 7D 4D 5S 7S 3H
+
+# a
+player should hold cards 1 4
+
+# h 1 4
+player's hand 7D 4H JS 7S 4S
+player wins with a TWO PAIR and his credit is 9990
